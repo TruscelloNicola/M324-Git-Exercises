@@ -1,0 +1,16 @@
+{
+  "name": "m324-git-exercises",
+  "version": "1.0.0",
+  "description": "This repository is a part of an exercise of M324. It is to be ignored.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.12.0"
+  }
+}

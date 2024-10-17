@@ -1,16 +1,24 @@
 {
-  "name": "m324-git-exercises",
+  "name": "lintformat2",
   "version": "1.0.0",
-  "description": "This repository is a part of an exercise of M324. It is to be ignored.",
+  "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint ."
+    "start": "npm run format && npm run lint && npm run test",
+    "test": "npx mocha .",
+    "lint": "eslint .",
+    "format": "prettier --write ."
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0"
+  },
   "dependencies": {
-    "eslint": "^9.12.0"
+    "mocha": "^10.7.3",
+    "prettier": "^3.3.3"
   }
 }
